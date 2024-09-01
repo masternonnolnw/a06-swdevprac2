@@ -30,7 +30,7 @@ jobs:
         setup-command: npm install
         command: npm run test -- case2.test.tsx
         timeout: 10
-        max-score: 1
+        max-score: 3
     - name: Autograding Reporter
       uses: classroom-resources/autograding-grading-reporter@v1
       env:
